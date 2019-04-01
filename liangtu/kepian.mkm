@@ -1,0 +1,12 @@
+<MKM version="2.0" imageFileUrl="file:///C:/Users/juanjuanhe/Desktop/bashahjj/liangtu/kepian.png">
+  <Marks>
+    <ColorMark x="693" y="79" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <LengthMark x="809" y="59" color="16711680" length="40" direction="3"/>
+    <LengthMark x="589" y="291" color="16711680" length="71" direction="3"/>
+    <ColorMark x="703" y="716" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="1288" y="707" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="826" y="2824" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="762" y="2875" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <LengthMark x="588" y="2825" color="16711680" length="20" direction="3"/>
+  </Marks>
+</MKM>

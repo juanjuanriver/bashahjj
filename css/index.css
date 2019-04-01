@@ -1,0 +1,458 @@
+/*最外层大盒子开始*/
+.container{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 780px;
+	min-width: 320px;
+}
+/*.header star*/
+.header{
+	height: 50px;
+	background-color: #e00000;
+	overflow: hidden;
+	position: relative;
+}
+.header>span{
+	width: 85%;
+	text-align: center;
+	border-left: 1px solid #d10101;
+	border-right: 1px solid #d10101;
+	margin-left: 7%;
+}
+.header>span>img{
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 1%;
+}
+.header>i{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+/*header end*/
+.top_img{
+	max-width: 780px;
+	min-width: 320px;
+}
+.top_img>img{
+	width: 100%;
+}
+/*1.今日头条开始*/
+.today{
+	margin-top: 5px;
+	height: 52px;
+	background:#fff;
+	display: flex;
+	border-bottom: 1px solid #bfbfbf;
+}
+.today>h3{
+	/*width: 30%;*/
+	height:28px ;
+	flex: 1;
+	font-size: 2em;
+	color: #ed5d5d;
+	text-align: center;
+	border-right: 1px solid #bfbfbf;
+}
+.today>div{
+	flex: 4;
+	margin-left: 12px;
+}
+.today>div>h4{
+	font-size: 1.5em;
+	line-height: 27px;
+}
+.today>div>p{
+	font-size: 1em;
+}
+/*1.今日头条结束*/
+/*2.图标开始*/
+.icons{
+	border-bottom: 1px solid #bfbfbf;
+	background: #fff;
+    padding: 25px 0 10px 0;
+    overflow: hidden;
+}
+.icons>ul{
+	/*padding-top: 32px;*/
+	display: flex;
+	flex-wrap:wrap;
+	
+}
+.icons>ul>li{
+	width: 25%;
+	padding: 0 0 20px 0;
+	margin: 0 auto;
+	
+}
+.icons>ul>li>a>img{
+	width: 56%;
+	margin: 0 auto;
+}
+.icons>ul>li>span{
+	color: #4b4946;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 1.1em;
+    padding: 8px 0 0 0;
+}
+.icons>ul>li>span>b{
+	background: #ffe401;
+    border-radius: 20px;
+    padding: 2px 5px;
+}
+/*2.图标结束*/
+/*3.芭莎视觉开始*/
+.bs_view{
+	height: 40px;
+	display: flex;
+	padding-top: 10px;
+	border-bottom: 1px solid #bfbfbf;
+}
+.bs_view>div{
+	flex: 1;
+}
+.bs_view div h3{
+	width: 96%;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    color: #000000;
+    font-style: italic;
+    margin: 0 auto;
+}
+.bs_view div p{
+	width: 96%;
+    font-size: 1.0em;
+    line-height: 1.3em;
+    color: #000000;
+    margin: 0 auto;
+}
+.le_bs_view span{
+	display: inline-block;
+	color: #2376d9;
+}
+.ri_bs_view b{
+	display: inline-block;
+	color: #5fa061;
+}
+.ri_bs_view{
+	height: 55%;
+	border-left: 1px solid #bfbfbf;
+}
+@media screen and (max-width: 760px)
+	.bs_view div h3{
+	    font-size: 1.8em;
+	}
+/*3.芭莎视觉结束*/
+/*4.6999开始*/
+.ba_69{
+	display: flex;
+	margin-top:10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #bfbfbf;
+}
+.ba_69 a{
+	width: 50%;
+	flex: 1;
+}
+.ba_69 a img{
+	width: 100%;
+}
+/*4.6999结束*/
+/*5.新人专区开始*/
+.newpeople{
+	margin-top: 20px;
+	width: 100%;
+}
+.newpeople>p>img{
+	width: 100%;
+}
+.newpeople>ul{
+	display: flex;
+}
+.newpeople>ul>li{
+	width: 33.3%;
+	flex: 1;
+}
+.newpeople>ul>li>a>img{
+	width: 100%;
+}
+.newpeople_text{
+	width: 95%;
+    overflow: hidden;
+    font-size: 1.3em;
+    line-height: 2.0;
+    margin: 10px auto;
+}
+.newpeople_text>a{
+	color: #ff8a00;
+}
+/*5.新人专区结束*/
+/*6.芭粉必看开始*/
+.bs_page{
+	width: 100%;
+	margin:20px auto;
+}
+.bg_page_text1{
+	width: 96%;
+    margin: 15px auto;
+    font-size: 1.5em;
+    text-align: center;
+}
+.bg_page_text2{
+	width: 95%;
+    margin: 10px auto;
+    text-align: center;
+}
+.bg_page_text1 b{
+	display: inline-block;
+}
+.bg_page_text1 i{
+	display: inline-block;
+	color: #fc4445;
+    font-weight: bold;
+}
+.bg_page_text2 a{
+	display: inline-block;
+    padding: 0 15px;
+    font-size: 0.5em;
+    height: 3.0em;
+    line-height: 3.0em;
+}
+.bg_page_text2 a em{
+	display: inline-block;
+	color: #0063f7;
+}
+.bg_page_text2 a b{
+	display: inline-block;
+	color: #000;
+    background: #ffe401;
+    font-size: 0.8em;
+    padding: 1px 4px;
+    border-radius: 12px;
+}
+.bg_page_text2 a span{
+	display: inline-block;
+	color: #e34242;
+}
+.bg_page_text2 a:nth-child(2){
+	border-left:1px solid #bfbfbf;
+	border-right:1px solid #bfbfbf;
+}
+@media screen and (max-width: 760px)
+.bg_page_text2 a {
+    font-size: 1.8em;
+}
+/*6.芭莎粉丝必看结束*/
+/*7.芭莎大图开始*/
+.bs_ad1{
+	width: 100%;
+	margin:20px auto;
+}
+.bs_ad1>p{
+	background: #e34242;
+}
+.bs_title{
+	font-size: 1.5em;
+    line-height: 2.3;
+    color: #FFFFFF;
+    text-indent: 15px;
+}
+.bs_ad1_text{
+	border-left: 10px solid #e34242;
+	width: 100%;
+	padding:10px 0;
+}
+.bs_ad1_text>dt{
+	width: 85%;
+    font-size: 3.2em;
+    line-height: 1.2em;
+    font-weight: bold;
+    color: #000000;
+    margin: 0 auto;
+}
+.bs_ad1_text>dd{
+	width: 85%;
+    font-size: 1.5em;
+    line-height: 2.0em;
+    color: #595959;
+    margin: 0 auto;
+}
+.bs_ad1_bottom{
+	width: 95%;
+	text-align: center;
+	margin: 10px auto;
+}
+.bs_ad1_bottom>a{
+	display: inline-block;
+    padding: 0 15px;
+    font-size: 1.5em;
+    height: 3.0em;
+    line-height: 3.0em;
+}
+.bs_ad1_bottom>a:nth-child(1){
+	color: #e34242;
+}
+.bs_ad1_bottom>a:nth-child(2){
+	border-left: 1px solid #bfbfbf;
+	border-right: 1px solid #bfbfbf;
+	color: #0063f7;
+}
+.bs_ad1_bottom>a:nth-child(3){
+	color: #00a62b;
+    font-weight: bold;
+}
+/*7.芭莎大图结束*/
+
+
+/*footer star*/
+.foot{
+	width: 90%;
+	margin: 0 auto;
+	/*background: palegreen;*/
+	margin:50px auto;
+	border-bottom: 1px solid #BFBFBF;
+}
+.foot_welcom{
+	color: #525252;
+    font-size: 1.5em;
+}
+.foot_welcom span{
+	display: inline-block;
+	color: #df0606;
+}
+.foot p:nth-child(2){
+	width: 100%;
+    font-size: 1.6em;
+    line-height: 30px;
+	padding: 20px 0 20px 0;
+}
+.foot p:nth-child(4){
+	font-size: 1.5em;
+}
+.foot p:nth-child(4) b{
+	display: inline-block;
+	font-weight: bold;
+	margin:40px 0 20px 0;
+}
+/*footer end*/
+/*slidemenu*/	
+.slidemenu{
+	width: 40px;
+    position: fixed;
+    right: 0;
+    bottom: 55px;
+    z-index: 2000;
+    overflow: hidden;
+}
+.slidemenu>p{
+	width: 40px;
+    height: 27px;
+}
+.slidemenu>span{
+	display: block;
+	width: 40px;
+    height: 27px;
+    background: #ffde00;
+    padding: 10px 0 0 0;
+}
+.slidemenu>span>img{
+	height: 16px;
+    margin: 0 auto;
+}
+/*@media screen and (min-width: 980px)
+	.slidemenu{
+	   display: none;
+	}*/
+@media screen and (max-width: 980px)
+	.slidemenu{
+	    bottom: 100px;
+	    /*display: block;*/
+	}
+/*slidemenu end*/
+
+
+
+/*底部浮动栏开始*/
+.bs_index_bottom{
+	width: 100%;
+    background: #000000;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    display: flex;
+}
+.bs_index_bottom p{
+	flex: 1;
+	width: 33.3%;
+}
+/*@media screen and (min-width: 980px)
+	.bs_index_bottom{
+	    display: none;
+	}
+@media screen and (max-width: 980px)
+	.bs_index_bottom{
+	    display: block;
+	}*/
+/*底部浮动栏结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*最外层大盒子结束*/
