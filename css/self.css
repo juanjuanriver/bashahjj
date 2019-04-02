@@ -1,6 +1,132 @@
 .self_container{
 	width: 100%;
 	margin: 0 auto;
-	/*max-width: 780px;*/
+	max-width: 780px;
 	min-width: 320px;
+}
+.baojia{
+	width: 100%;
+	margin: 0 auto;
+}
+.baojia>div{
+	width: 100%;
+	margin: 0 auto;
+}
+/*top star*/
+.self_nav{
+	width: 100%;
+	margin: 0 auto;
+	height: 50px;
+	background: #c60001;
+	position: relative;
+	overflow: hidden;
+}
+.self_nav>i{
+	width: 60%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -30%;
+    color: #fff;
+    font-size: 3em;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.self_nav>span{
+	display: block;
+    position: absolute;
+    z-index: 5000;
+    top: 28%;
+    right: 0;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+.self_nav>div{
+	float: left;
+}
+.self_nav>div>a>span{
+    float: left;
+    padding: 15px 0 0 15px;
+}
+.self_nav>div>a>p{
+    float: left;
+    color: #fff;
+    font-size: 2.0em;
+    padding: 0 0 0 6px;
+    line-height: 50px;
+}
+/*top end*/
+/*1.hunsha stlye star*/
+.wedding_stlye{
+	width: 90%;
+    margin: 10px auto;
+    border-bottom: 1px solid #e2e2e2;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.wedding_stlye>dt{
+	width: 100%;
+    line-height: 1.5;
+    color: #1e1b1f;
+    font-size: 1.6em;
+}
+.wedding_stlye>dd{
+	text-align: left;
+	width:30%;
+    overflow: hidden;
+    margin: 15px auto;
+    line-height: 30px;
+    color: #a8a7a8;
+    font-size: 1.5em;
+}
+/*1.hunsha style end*/
+/*2.contact star*/
+.contact{
+	width: 90%;
+    overflow: hidden;
+    margin: 20px auto;
+}
+.contact>h3{
+	font-size: 16px;
+    line-height: 30px;
+}
+.input_dl{
+	width: 98%;
+    margin: 10px auto;
+}
+.input_dl>dt{
+	color: #000000;
+    font-size: 16px;
+    line-height: 35px;
+    height: 35px;
+    font-weight: bold;
+}
+.input_dl>dd{
+	width: 100%;
+}
+.input_dl>dd>input{
+	width: 97%;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    font-size: 2.5em;
+    line-height: 2.2em;
+    padding-left: 3%;
+}
+/*2.contact end*/
+.self_bottom_pic{
+	margin: 20px auto;
+	width: 90%;
+}
+.self_bottom_pic>a{
+	width: 100%;
+    margin: 10px auto;
+}
+.self_bottom_pic+p{
+	width: 92%;
+	margin: 0 auto;
+    font-size: 12px;
+    line-height: 20px;
 }

@@ -1,5 +1,10 @@
 <MKM version="2.0" imageFileUrl="file:///C:/Users/juanjuanhe/Desktop/bashahjj/liangtu/selfprices.png">
   <Marks>
     <LengthMark x="290" y="0" color="16711680" length="51" direction="3"/>
+    <ColorMark x="507" y="23" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="563" y="45" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="583" y="618" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="150" y="563" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="212" y="640" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
   </Marks>
 </MKM>
