@@ -1,0 +1,307 @@
+.gz_container{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 780px;
+	min-width: 320px;
+	background: #F0F0F0;
+}
+/*<!--nav star-->*/
+.gz_nav{
+	background: #F0F0F0;
+	border-bottom: 1px solid #e6e6e6;
+    width: 100%;
+}
+.gz_nav>ul{
+	overflow: hidden;
+	width: 100%;
+    height: 65px;
+    margin: 0 auto;
+    color: #666;
+    text-align: center;
+    display: flex;
+}
+.gz_nav>ul>li{
+	flex: 1;
+}
+.gz_nav>ul>li:nth-child(1){
+	line-height: 65px;
+	font-size: 2.8em;
+	float: left;
+}
+.gz_nav>ul>li:nth-child(2){
+	line-height: 65px;
+	font-size: 2.8em;
+	float: left;
+}
+.gz_nav>ul>li:nth-child(3){
+	line-height: 65px;
+	font-size: 2.1em;
+	float: right;
+}
+.gz_nav>ul>li:nth-child(3) span{
+	font-weight: bold;
+	display: inline-block;
+	color: #000000;
+}
+.gz_banner{
+	width: 100%;
+}
+/*icon star*/
+.gz_icons{
+	width: 100%;
+	border-top: 1px solid #F0F0F0;
+	border-bottom: 1px solid #D8D8D8;
+	padding-bottom: 20px;
+	background: #FFFFFF;
+}
+.gz_icons>ul{
+	display: flex;
+	flex-wrap: wrap;
+	margin:0 auto;
+	animation: slideX 1s ease;
+}
+@keyframes slideX {
+	0% {
+		transform: translateX(-780px);
+	},
+	60% {
+		transform: translateX(1.25rem);
+	},
+	100% {
+		transform: translateX(0rem);
+	}
+}
+@-webkit-keyframes slideX {
+	0% {
+		-webkit-transform: translateX(-780px);
+	},
+	60% {
+		-webkit-transform: translateX(1.25rem);
+	},
+	100% {
+		-webkit-transform: translateX(0);
+	}
+}
+
+.gz_icons>ul>li{
+	width: 20%;
+	text-align: center;
+	margin-top: 20px;
+}
+.gz_icons>ul>li>a>img{
+	margin:0 auto;
+	width: 57%;
+}
+.gz_icons>ul>li>a>span{
+	margin:0 auto;
+	font-size: 1.5em;
+	color: #333333;
+}
+/*icon end*/
+.gz_30s{
+	width: 100%;
+	margin: 20px 0 20px 0;
+}
+.gz_30s>div{
+	width: 100%;
+}
+.gz_30s>div>img{
+	border-top: 1px solid #D8D8D8;
+	border-bottom: 1px solid #D8D8D8;
+}
+/*1.婚宴酒店开始*/
+.gz_hun{
+	width: 100%;
+	margin-top: 20px;
+	border-top: 1px solid #D8D8D8;
+	border-bottom: 1px solid #D8D8D8;
+	background: #FFFFFF;
+	margin: 0 auto;
+}
+.gz_hun_title{
+	padding-top: 22px;
+	font-weight: 400;
+	width: 95%;
+	margin: 0 auto;
+	line-height: 1;
+    color: #333;
+    font-size: 2em;
+    
+}
+.gz_hun_title>a{
+	display: inline-block;
+    float: right;
+    color: #999;
+    padding-right: 10px;
+}
+.gz_hun>ul{
+	margin: 0 auto;
+	width: 95%;
+	margin-top: 20px;
+	display: flex;
+}
+.gz_hun>ul>li{
+	width: 33.3%;
+	flex: 1;
+}
+.gz_hun>ul>li>a>img{
+	width: 93%;
+	border-radius: 5px;
+}
+.gz_hun>ul>li p{
+	color: #333333;
+	font-size: 1.7em;
+	text-align: center;
+	margin-top: 15px;
+	padding-bottom: 15px;
+}
+/*2.婚宴酒店结束*/
+/*foot nav star*/
+.gz_footnav{
+	margin-top: 15px;
+	border-top: 1px solid #D8D8D8;
+	border-bottom: 1px solid #D8D8D8;
+	background: #FFFFFF;
+}
+.gz_footnav>ul{
+	width: 100%;
+	display: flex;
+	justify-content:center;
+}
+.gz_footnav>ul>li{
+	display: block;
+	height: 66px;
+	line-height: 66px;
+	text-align: center;
+	flex: 1;
+	font-size: 2.0em;
+	position: relative;
+}
+.gz_footnav>ul>li:nth-child(1){
+	color: #FF3366;
+	border-bottom: 5px solid #FF3366;
+}
+ .gz_footnav>ul>li:after{
+            /* 单引号双引号都可以，但必须是英文 */
+            content: "";
+            width: 0;
+            height: 5px;
+            background: #FF3366;
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            transition: all .8s;
+        }
+        .gz_footnav>ul>li:hover:after{
+            left: 0%;
+            width: 100%;
+        }
+/*foot nav end*/
+/*foot content star*/
+.gz_footcont{
+	width: 100%;
+	background: #FFFFFF;
+}
+.gz_footcont>ul{
+	width: 95%;
+	display: flex;
+	margin: 0 auto;
+	padding: 20px 0;
+	border-bottom: 1px solid #F0F0F0;
+}
+.gz_footcont>ul>li{
+	flex: 1;
+}
+.gz_footcont>ul>li:nth-child(1) img{
+	width: 60%;
+	border-radius: 5px;
+}
+.gz_footcont_p{
+    font-size: 2em;
+    line-height: 2.5;
+}
+.gz_footcont_p+p{
+	font-size: 1.5em;
+	line-height: 2.5;
+	color: #999999;
+}
+.gz_footcont_p+p i{
+	display: inline-block;
+	color: #FF3366;
+}
+/*foot content end*/
+.gz_more{
+	width: 100%;
+	background: #FFFFFF;
+	padding:20px 0;
+	border-bottom: 1px solid #D8D8D8;
+}
+.gz_more>div{
+	margin: 0 auto;
+	height: 42px;
+	width: 150px;
+	border-radius: 10px;
+	border: 1px solid #dbc4a3;
+}
+.gz_more>div>p{
+	text-align: center;
+    line-height: 42px;
+    color: #dbc4a3;
+    font-size: 2.0em;
+}
+.gz_more+ul{
+	padding:20px 0;
+	width: 50%;
+	display: flex;
+    margin: 0 auto;
+}
+.gz_more+ul>li{
+	flex: 1;
+	font-size: 1.9em;
+	color: #7A7A7A;
+}
+.gz_bot,.gz_bot+div{
+	margin-top: 30px;
+	text-align: center;
+}
+.gz_bot p,.gz_bot+div p{
+	font-size: 1.8em;
+	color: #B2B2B2;
+}
+.gz_bot+div{
+	padding-bottom: 50px;
+}
+/*slidemenu*/	
+.slidemenu{
+	width: 40px;
+    position: fixed;
+    right: 0;
+    bottom: 55px;
+    z-index: 2000;
+    overflow: hidden;
+}
+.slidemenu>p{
+	width: 40px;
+    height: 27px;
+}
+.slidemenu>span{
+	display: block;
+	width: 40px;
+    height: 27px;
+    background: #ffde00;
+    padding: 10px 0 0 0;
+}
+.slidemenu>span>img{
+	height: 16px;
+    margin: 0 auto;
+}
+/*@media screen and (min-width: 980px)
+	.slidemenu{
+	   display: none;
+	}*/
+@media screen and (max-width: 980px)
+	.slidemenu{
+	    bottom: 100px;
+	    /*display: block;*/
+	}
+/*slidemenu end*/
