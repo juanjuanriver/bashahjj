@@ -1,0 +1,366 @@
+.onlyone_container{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 780px;
+	min-width: 320px;
+	background: #e6e7ec;
+}
+/*top star*/
+.onlyone_top{
+	width: 100%;
+    background: #144399;
+}
+.onlyone_top>div:nth-child(1){
+	margin: 0 auto;
+	width: 40%;
+	padding:10px 0;
+}
+.onlyone_top>div:nth-child(1) img{
+	width: 100%;
+}
+.onlyone_topri{
+	position: relative;
+}
+.onlyone_topri>i{
+	display: block;
+    right: 1.5rem;
+    top: -50px;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 0.4rem;
+    background: #FF4D4D;
+    position: absolute;
+}
+.sp1{
+	display: block;
+	position: absolute;
+    right: 23px;
+    top: -33px;
+    width: 3.5rem;
+    height: 1px;
+    background-color: rgba(255,255,255,1);
+}
+.sp1+span{
+	display: block;
+	position: absolute;
+    right: 23px;
+    top: -23px;
+    width: 3.5rem;
+    height: 1px;
+    background-color: rgba(255,255,255,1);
+}
+.onlyone_nav{
+	width: 100%;
+}
+.onlyone_nav>ul{
+	width: 100%;
+	display: flex;
+	text-align: center;
+	background: #FFFFFF;
+}
+.onlyone_nav>ul>li{
+	margin: 0 auto;
+	flex: 1;
+	line-height:2.3;
+	position: relative;
+}
+ .onlyone_nav>ul>li:after{
+    /* 单引号双引号都可以，但必须是英文 */
+    content: "";
+    width: 0;
+    height: 5px;
+    background: #144399;
+    position: absolute;
+    top: 96%;
+    left: 50%;
+    transition: all 0.8s;
+}
+.onlyone_nav>ul>li:hover:after{
+    left: 0%;
+    width: 100%;
+}
+.onlyone_nav>ul>li>a:hover{
+	color: #144399;
+}
+.onlyone_nav>ul>li>a{
+	font-size: 2.3em;
+	color: #333333;
+	font-weight: bold;
+}
+.onlyone_nav>ul>li:nth-child(1){
+	border-bottom: 5px solid #144399;
+}
+.onlyone_nav>ul>li:nth-child(1)>a{
+	color: #144399;
+}
+/*top end*/
+/*hot city star*/
+.onlyone_hot{
+	width: 100%;
+	margin: 0 auto;
+	background: #FFFFFF;
+}
+.onlyone_hot>p{
+	padding-top: 40px;
+	text-align: center;
+}
+.onlyone_hot_content{
+	width: 100%;
+}
+.onlyone_hot_content>ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 30px;
+}
+.onlyone_hot_content>ul>li{
+	width: 33%;
+	margin-top: 20px;
+}
+.onlyone_hot_content>ul>li img{
+	width: 90%;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+.onlyone_hot_content>ul>li h3{
+	font-size: 2.3em;
+	text-align: center;
+	padding-top: 10px;
+	color: #666666;
+}
+/*hot city end*/
+/*kepic show star*/
+.onlyone_show{
+	width: 100%;
+	margin: 0 auto;
+	background: #FFFFFF;
+	margin-top: 10px;
+}
+.onlyone_show>p{
+	padding-top: 5px;
+	text-align: center;
+}
+.onlyone_show_content{
+	width: 100%;
+}
+.onlyone_show_content>ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 30px;
+}
+.onlyone_show_content>ul>li{
+	width: 33%;
+	margin-top: 20px;
+}
+.onlyone_show_content>ul>li img{
+	width: 90%;
+	margin: 0 auto;
+}
+.onlyone_show_content>ul>li h3{
+	font-size: 2.3em;
+	font-weight: 400;
+	text-align: center;
+	padding-top: 10px;
+	color: #444444;
+}
+.onlyone_show_content>ul>li h3:hover{
+	color: #144399;
+}
+/*kepic show end*/
+.onlyone_a{
+	width: 100%;
+	background: #FFFFFF;
+	padding-bottom: 30px;
+}
+.onlyone_a>a{
+	margin: 0 auto;
+	display: block;
+    width: 96%;
+    background: #EFEFEF;
+    line-height: 2.6;
+    text-align: center;
+    font-size: 2.5em;
+    color: #6c6c6c;
+}
+.onlyone_a>a:hover{
+	color: #FFFFFF;
+	background: #144399;
+}
+/*wedding pics star*/
+.onlyone_show{
+	width: 100%;
+	margin: 0 auto;
+	background: #FFFFFF;
+	margin-top: 10px;
+}
+.onlyone_show>p{
+	padding-top: 5px;
+	text-align: center;
+}
+.onlyone_wed_content{
+	width: 100%;
+}
+.onlyone_wed_content>ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 30px;
+}
+.onlyone_wed_content>ul>li{
+	width: 50%;
+	margin-top: 20px;
+}
+.onlyone_wed_content>ul>li img{
+	width:95%;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+.onlyone_wed_content>ul>li h3{
+	font-size: 2.3em;
+	font-weight: 400;
+	padding-top: 10px;
+	color: #444444;
+}
+.onlyone_wed_content ul li i{
+	font-size: 1.6em;
+    color: #757575;
+    font-style: normal;
+    display: block;
+}
+.onlyone_wed_content ul li p{
+	color: #757575;
+    font-size: 1.6em;
+}
+/*weding pics end*/
+.onlyone_bot{
+	width: 100%;
+	background: #FFFFFF;
+	margin-top: 20px;
+}
+.onlyone_bot>img{
+	width: 95%;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+/*input star*/
+.onlyone_inputs{
+	width: 100%;
+	background: #FFFFFF;
+	padding-bottom: 50px;
+}
+.onlyone_inputs ul{
+	display: flex;
+	flex-direction:column; 
+	margin-left: 1%;
+}
+.onlyone_inputs ul li{
+	width:98%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.onlyone_inputs>ul>li>input{
+	margin: 0 auto;
+	width:98%;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    background: #F9F9F9;
+    border: 1px solid #CCC;
+    font-size: 1.4rem;
+    color: #999;
+    padding-left: 5%;
+}
+.onlyone_inputs>ul+div{
+	width: 96%;
+	margin:0 auto;
+	margin-top: 20px;
+	cursor: pointer;
+    background: #FF4D4D;
+    color: #FFF;
+    height: 80px;
+    line-height: 80px;
+    font-size: 2rem;
+    text-align: center;
+}
+.onlyone_inputs>ul+div:hover{
+	background: #1b52a4;
+}
+.onlyone_inputs>p{
+	text-align: center;
+	margin-top: 22px;
+	color: #999999;
+	font-size: 2.5em;
+	line-height: 2.3;
+}
+/*input end*/
+/*foot star*/
+.footer{
+	width: 100%;
+	background: #222;
+}
+.footer_title{
+	text-align: center;
+    background: rgba(255,255,255,0.8);
+}
+.footer_title ul{
+	display: flex;
+}
+.footer_title ul li{
+	flex: 1;
+}
+.footer_title ul li b{
+	font-size: 1.6rem;
+    font-weight: 200;
+    line-height: 2.6rem;
+    margin: 0.5rem 0 0 0;
+    display: block;
+}
+.footer_title ul li i{
+	font-style: normal;
+	font-size: 0.6rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+.footer_content{
+	text-align: center;
+	border-bottom: 1px solid #444;
+}
+.footer_content p:nth-child(1){
+	padding-top: 100px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 1.2rem;
+	line-height: 2;
+}
+.footer_content p:nth-child(2){
+	font-size: 0.7rem;
+	color: #F0F0F0;
+	line-height: 2;
+}
+.footer_content p:nth-child(3){
+	line-height: 2;
+	font-size: 1.2rem;
+	color: #FFF;
+}
+.footer_content a{
+	display: block;
+	margin: 0 auto;
+	width: 40%;
+	margin-top: 30px;
+	padding-bottom: 40px;
+}
+.footer>p{
+	text-align: center;
+	color: #999999;
+	font-size: 2em;
+	line-height: 1.5;
+	padding-bottom: 80px;
+	padding-top: 33px;
+}
+/*foot end*/
+/*slidemenu*/	
+.slide{
+	width: 40px;
+    position: fixed;
+    right: 30px;
+    bottom: 55px;
+    z-index: 100;
+}
+/*slidemenu end*/

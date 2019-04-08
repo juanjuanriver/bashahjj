@@ -1,0 +1,232 @@
+.onlytwo_container{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 780px;
+	min-width: 320px;
+	background: #e6e7ec;
+}
+/*top star*/
+.onlyone_top{
+	width: 100%;
+    background: #144399;
+}
+.onlyone_top>div:nth-child(1){
+	margin: 0 auto;
+	width: 40%;
+	padding:10px 0;
+}
+.onlyone_top>div:nth-child(1) img{
+	width: 100%;
+}
+.onlyone_topri{
+	position: relative;
+}
+.onlyone_topri>i{
+	display: block;
+    right: 1.5rem;
+    top: -50px;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 0.4rem;
+    background: #FF4D4D;
+    position: absolute;
+}
+.sp1{
+	display: block;
+	position: absolute;
+    right: 23px;
+    top: -33px;
+    width: 3.5rem;
+    height: 1px;
+    background-color: rgba(255,255,255,1);
+}
+.sp1+span{
+	display: block;
+	position: absolute;
+    right: 23px;
+    top: -23px;
+    width: 3.5rem;
+    height: 1px;
+    background-color: rgba(255,255,255,1);
+}
+.onlytwo_nav{
+	width: 100%;
+}
+.onlytwo_nav>ul{
+	width: 100%;
+	display: flex;
+	text-align: center;
+	background: #FFFFFF;
+	border-bottom: 1px solid #EEEEEE;
+	box-shadow: 0px 3px 3px #888888;
+}
+.onlytwo_nav>ul>li{
+	margin: 0 auto;
+	flex: 1;
+	line-height:2.3;
+	position: relative;
+}
+ .onlytwo_nav>ul>li:after{
+    /* 单引号双引号都可以，但必须是英文 */
+    content: "";
+    width: 0;
+    height: 5px;
+    background: #144399;
+    position: absolute;
+    top: 96%;
+    left: 50%;
+    transition: all 0.8s;
+}
+.onlytwo_nav>ul>li:hover:after{
+    left: 0%;
+    width: 100%;
+}
+.onlytwo_nav>ul>li>a:hover{
+	color: #144399;
+}
+.onlytwo_nav>ul>li>a{
+	font-size: 2.3em;
+	color: #333333;
+	font-weight: bold;
+}
+/*top end*/
+/*tlt star*/
+.two_show{
+	width: 100%;
+	background: #FFFFFF;
+	padding-top: 30px;
+}
+.two_show>div{
+	text-align: center;
+	margin: 0 auto;
+	padding-left: 13%;
+	border-bottom: 2px solid #ccc;
+}
+.two_show_list{
+	width: 100%;
+	background: #EEEEEE;
+}
+.two_show_list ul{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.two_show_list ul li{
+	text-align: center;
+	height: 3.5rem;
+    width: 20%;
+    color: #000;
+    font-size: 2.3em;
+}
+.two_show_list ul li a:hover{
+	color: #154399;
+}
+.two_show_list  ul li a span{
+	display: block;
+    border-right: 1px solid #CCC;
+    height: 2rem;
+    line-height: 2rem;
+    margin-top: 0.75rem;
+}
+.two_show_tltbig{
+	background: #FFFFFF;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+.two_show_tltbig a{
+	display: inline-block;
+	font-size: 2.3em;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    width: 10rem;
+    color: #000;
+    border:1px solid #cdcdcd;
+}
+.two_show_tltbig a:nth-child(1){
+	color: #FFFFFF;
+	background: #154399;
+}
+.two_show_tltbig a:hover{
+	color: #FFFFFF;
+	background: #154399;
+}
+
+.onlytwo_show_content{
+	width: 100%;
+	background: #FFFFFF;
+}
+.onlytwo_show_content>ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 30px;
+}
+.onlytwo_show_content>ul>li{
+	width: 33%;
+	margin-top: 20px;
+}
+.onlytwo_show_content>ul>li img{
+	width: 90%;
+	margin: 0 auto;
+}
+.onlytwo_show_content>ul>li h3{
+	font-size: 2.3em;
+	font-weight: 400;
+	text-align: center;
+	padding-top: 10px;
+	color: #444444;
+}
+.onlytwo_show_content>ul>li h3:hover{
+	color: #144399;
+}
+/*tlt end*/
+.two_page{
+	width: 100%;
+	margin-top: 20px;
+	background: #FFFFFF;
+	text-align: center;
+	padding:20px 50px;
+}
+.two_page a{
+	font-size: 2.3em;
+	display: inline-block;
+	margin-left: 10px;
+	line-height: 2;
+	text-align: center;
+    border-radius: 2rem;
+    border: 1px solid #144399;
+    color:  #144399;
+}
+.two_page a:hover{
+	background: #144399;
+    color: #FFF;
+}
+.two_page span{
+	font-size: 2.3em;
+	display: inline-block;
+	background: #144399;
+    color: #FFF;
+    border: 1px solid #144399;
+    line-height: 2;
+    width: 6%;   
+    text-align: center;
+    border-radius: 2rem;
+    margin-left: 10px;
+}
+.two_page .two_page1{
+    width: 13%;
+}
+.two_page .two_page2{
+    width: 6%;    
+}.two_page .two_page3{
+    width: 13%;
+}
+/*slidemenu*/	
+.slide{
+	width: 40px;
+    position: fixed;
+    right: 30px;
+    bottom: 55px;
+    z-index: 100;
+}
+/*slidemenu end*/

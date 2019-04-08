@@ -1,0 +1,151 @@
+.gzpeople_container{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 780px;
+	min-width: 320px;
+	background: #F0F0F0;
+}
+/*top star*/
+.gzp_top{
+	width: 100%;
+	background: #FFFFFF;
+}
+.gzp_top>ul{
+	margin: 0 auto;
+	width: 95%;
+	height: 50px;
+	
+	padding:10px auto;
+	display: flex;
+	justify-content:space-between
+}
+.gzp_top>ul>li{
+	line-height: 50px;
+}
+.gzp_top>ul>li:nth-child(1)>a>img{
+	padding-top: 10px;
+	width: 89%;
+}
+.gzp_top>ul>li:nth-child(2)>a{
+	color: #444444;
+	font-size:1.5em;
+}
+/*top end*/
+/*input star*/
+.gzp_input{
+	position: relative;
+}
+.gzp_input>a{
+	display: inline-block;
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    width: 80%;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    padding-left: 10px;
+    background: #fff none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 4px;
+    color: #96949a;
+    font-size: 1.2rem;
+}
+/*input end*/
+/*icons star*/
+.gzp_list{
+	width: 100%;
+	margin: 0 auto;
+}
+.gzp_list>ul{
+	width: 95%;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 12px;
+	margin: 0 auto;
+}
+.gzp_list>ul>li{
+	text-align: center;
+	margin: 0 auto;
+	width: 32%;
+	border: 1px solid #e4e4e4;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #FFFFFF;
+}
+.gzp_list>ul>li>a>img{
+	margin: 0 auto;
+	width: 35%;
+}
+.gzp_list>ul>li>span{
+	font-size: 1.5em;
+	padding-top: 10px;
+	color: #888888;
+}
+/*icons end*/
+.gzp_list+div{
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 12px;
+	margin-bottom: 15px;
+}
+/*company star*/
+.gzp_company{
+	width: 100%;
+	margin: 0 auto;
+}
+.gzp_company>ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.gzp_company>ul>li{
+	padding-top: 8px;
+	width: 50%;
+}
+.gzp_company>ul>li img{
+	width:92%;
+}
+/*company end*/
+.gzp_company+p{
+	height: 2rem;
+    padding-left: 1rem;
+    margin-left: 10px;
+    border-left: solid 4px #e60012;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+/*招聘开始*/
+.gzp_employ{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.gzp_employ>ul{
+	display: flex;
+	flex-direction:column;
+	background: #FFFFFF;
+	padding-left: 10px;
+}
+.gzp_employ>ul>li{
+	height: 88px;
+	border-bottom: 1px solid #dedede;
+}
+.gzp_employ>ul>li>a>p{
+	font-size: 2.3em;
+	color: #333333;
+	line-height: 2.3;
+}
+.gzp_employ>ul>li>a>span{
+	color: #a0a0a0;
+	font-size: 1.8em;
+}
+/*招聘结束*/
+/*slidemenu*/	
+.slide{
+	width: 40px;
+    position: fixed;
+    right: 30px;
+    bottom: 55px;
+    z-index: 100;
+}
+/*slidemenu end*/

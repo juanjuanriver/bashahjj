@@ -1,0 +1,13 @@
+<MKM version="2.0" imageFileUrl="file:///C:/Users/juanjuanhe/Desktop/bashahjj/liangtu/onlytwo.png">
+  <Marks>
+    <ColorMark x="1056" y="160" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="853" y="344" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="971" y="346" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="1166" y="347" color="16711680" offsetX="1" offsetY="1" defaultDirection="10" colorSystem="hex"/>
+    <ColorMark x="1153" y="321" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="936" y="506" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <LengthMark x="836" y="459" color="16711680" length="42" direction="3"/>
+    <LengthMark x="801" y="549" color="16711680" length="23" direction="3"/>
+    <ColorMark x="1136" y="501" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+  </Marks>
+</MKM>
