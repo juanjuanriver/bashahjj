@@ -1,0 +1,19 @@
+<MKM version="2.0" imageFileUrl="file:///C:/Users/juanjuanhe/Desktop/bashahjj/liangtu/home.png">
+  <Marks>
+    <ColorMark x="1394" y="1007" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <LengthMark x="624" y="1" color="16711680" length="85" direction="3"/>
+    <ColorMark x="1150" y="494" color="16711680" offsetX="1" offsetY="1" defaultDirection="10" colorSystem="hex"/>
+    <ColorMark x="750" y="445" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="808" y="546" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="1205" y="556" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="834" y="637" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <LengthMark x="703" y="516" color="16711680" length="87" direction="3"/>
+    <ColorMark x="1187" y="997" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="1019" y="1036" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="778" y="1843" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="1189" y="1844" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <LengthMark x="983" y="1845" color="16711680" length="20" direction="3"/>
+    <ColorMark x="770" y="2258" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="1089" y="2493" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+  </Marks>
+</MKM>

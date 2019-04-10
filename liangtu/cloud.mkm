@@ -1,0 +1,10 @@
+<MKM version="2.0" imageFileUrl="file:///C:/Users/juanjuanhe/Desktop/bashahjj/liangtu/cloud.png">
+  <Marks>
+    <ColorMark x="437" y="1951" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="366" y="1961" color="16711680" offsetX="0" offsetY="0" defaultDirection="10" colorSystem="hex"/>
+    <LengthMark x="113" y="1508" color="16711680" length="11" direction="3"/>
+    <ColorMark x="503" y="3798" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <LengthMark x="169" y="3616" color="16711680" length="44" direction="3"/>
+    <ColorMark x="385" y="3747" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+  </Marks>
+</MKM>

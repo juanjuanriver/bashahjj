@@ -1,0 +1,14 @@
+<MKM version="2.0" imageFileUrl="file:///C:/Users/juanjuanhe/Desktop/bashahjj/liangtu/foodsky.png">
+  <Marks>
+    <ColorMark x="1259" y="66" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="1108" y="91" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <LengthMark x="678" y="146" color="16711680" length="12" direction="3"/>
+    <ColorMark x="1224" y="544" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="1491" y="618" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="1105" y="575" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <LengthMark x="677" y="575" color="16711680" length="8" direction="3"/>
+    <ColorMark x="915" y="596" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <ColorMark x="657" y="774" color="16711680" offsetX="25" offsetY="10" defaultDirection="9" colorSystem="hex"/>
+    <LengthMark x="640" y="974" color="16711680" length="10" direction="3"/>
+  </Marks>
+</MKM>

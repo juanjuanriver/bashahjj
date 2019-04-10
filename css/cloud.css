@@ -1,0 +1,154 @@
+/*slidemenu*/	
+.slide{
+	width: 40px;
+    position: fixed;
+    right: 30px;
+    bottom: 55px;
+    z-index: 100;
+}
+/*slidemenu end*/
+.cloud_container{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 780px;
+	min-width: 320px;
+}
+/*1.top star*/
+.cloud_topimg{
+	position: relative;
+	width: 100%;
+}
+.cloud_topimg img:nth-child(1){
+	width: 100%;
+    height: auto;
+}
+.cloud_topimg img:nth-child(2){
+	width: 45%;
+    background-color: rgba(255, 255, 255);
+    position: absolute;
+    top: 2.4rem;
+    left: 11rem;
+    z-index: 99;
+}
+/*1.top end*/
+/*2.大空间配置开始*/
+.cloud_big{
+	width: 100%;
+	margin:0 auto;
+}
+.cloudtlt{
+	display: block;
+	width: 100%;
+    text-align: center;
+    line-height: 3;
+    font-size: 2.3em;
+    color: #393636;
+    font-weight: bold;
+    background-color: #fce202;
+    margin-top: 20px;
+}
+.cloud_big ul{
+	display: flex;
+	flex-wrap: wrap;
+	width: 95%;
+	margin: 0 auto;
+}
+.cloud_big ul li{
+	width: 50%;
+	margin-top: 10px;
+}
+.cloud_big ul li img{
+	width: 92%;
+}
+/*2.大空间配置结束*/
+/*3.九大不限开始*/
+.cloud_jiu{
+	width: 100%;
+	margin:0 auto;
+}
+.cloud_jiu ul{
+	display: flex;
+	flex-wrap: wrap;
+	width: 95%;
+	margin: 0 auto;
+}
+.cloud_jiu ul li{
+	width: 33%;
+	margin-top: 10px;
+}
+.cloud_jiu ul li img{
+	width: 96%;
+}
+/*3.九大不限结束*/
+/*5.一步到位开始*/
+.cloud_five{
+	width: 100%;
+	margin:0 auto;
+	background-color: #fce202;
+}
+.cloud_five>div>img{
+	width: 88%;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+/*5.一步到位结束*/
+/*foot star*/
+.cloud_footer{
+	background-color: #291b1b;
+    padding-bottom: 0.29rem;
+    width: 100%;
+    height: auto;
+}
+.cloud_footer>h4{
+	width: 100%;
+    height: auto;
+    font-size: 2.5rem;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+.cloud_footer>div.form{
+	width: 50%;
+	margin:0 auto;
+	margin-top: 20px;
+	display: flex;
+	flex-direction:column;
+}
+.cloud_footer>div.form>input{
+	width: 100%;
+    margin-left: 0.62rem;
+    line-height: 2;
+    background-color: #ffffff;
+    border-radius: 30px;
+    font-size: 2.0em;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.cloud_footer>div.button{
+	width: 50%;
+	margin: 0 auto;
+}
+.cloud_footer>div.button>button{
+	width: 100%;
+    background-color: #fce202;
+    border-radius: 30px;
+    font-size: 3em;
+    color: #654a3d;
+    text-align: center;
+    line-height: 2.3;
+    margin-top: 10px;
+}
+.cloud_footer>p{
+    text-align: center;
+    font-size: 2.6em;
+    color: #ffffff;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+.cloud_footer>p>span{
+	display: block;
+	 font-size: 0.6em;
+	  line-height: 1;
+}
+/*foot end*/

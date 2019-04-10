@@ -1,0 +1,192 @@
+.food_container{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 640px;
+	min-width: 320px;
+	padding-bottom: 100px;
+}
+/*top star*/
+.food_logo{
+	width: 100%;
+	display: flex;
+	justify-content:space-between;
+	background: #FFFFFF;
+}
+.food_logo a{
+    padding: 13px 10px 14px 20px;
+}
+.food_logo a:nth-child(1) img{
+	width: 80px;
+	height: 24px;
+}
+.food_logo a:nth-child(2) img{
+	width: 115px;
+	height: 30px;
+}
+.food_nav{
+	width: 100%;
+	background: #f3f3f3;
+	border-bottom: 1px solid #ff6767;
+}
+.food_nav ul{
+	display: flex;
+	text-align: center;
+}
+.food_nav ul li{
+	flex: 1;	
+}
+.food_nav ul li a{
+	font-size: 2em;
+	line-height: 2.3;
+}
+.food_input{
+	width: 100%;
+	padding:10px 0;
+}
+.food_input>div{
+	width: 95%;
+	margin: 0 auto;
+	height: 44px;
+    line-height: 44px;
+    background: #fff;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    padding: 0 65px 0 0;
+    position: relative;
+    overflow: hidden;
+}
+.food_input>div>input{
+	float: left;
+    border: 0;
+    font-size: 15px;
+    width: 100%;
+    height: 44px;
+    text-indent: 10px;
+}
+.food_input>div>a{
+	display: block;
+    float: right;
+    width: 70px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    color: #333;
+}
+.food_input>div>a>span{
+	display: block;
+    line-height: 19px;
+    height: 19px;
+    margin: 13px 0 0;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    border-left: 1px solid #bbb;
+}
+.food_list{
+	width: 100%;
+}
+.food_list ul{
+	display: flex;
+	background: #FFFFFF;
+}
+.food_list ul li{
+	flex: 1;
+}
+.food_list ul li a{
+	display: block;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+}
+.food_list ul li a i{
+	display: block;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto 5px;
+    background: url(../img/food/icon.png) no-repeat;
+    background-size: 205px auto;
+}
+.food_list ul li:nth-child(2) a i{
+	background-position: -41px 0;
+}
+.food_list ul li:nth-child(3) a i{
+	background-position: -82px 0;
+}
+.food_list ul li:nth-child(4) a i{
+	background-position: -123px 0;
+}
+.food_list ul li:nth-child(5) a i{
+	background-position: -164px 0;
+}
+/*top end*/
+/*banner star*/
+.food1{
+	padding:8px 0;
+	border-top: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
+}
+.food_titlt{
+	font-size: 2em;
+	line-height: 2;
+	color: #111111;
+}
+.food_content{
+	display: flex;
+}
+.food_content li{
+	flex: 1;
+}
+.food_content li a img{
+	width: 96%;
+	margin: 0 auto;
+}
+.food_bottom{
+	padding-top: 10px;
+}
+.food_bottom a{
+	color: #888888;
+	font-size: 1.5em;
+}
+.food_desc{
+	display: flex;
+}
+.food_desc>a:nth-child(1) img{
+	width: 50%;
+}
+.food_desc>a:nth-child(2) p:nth-child(1){
+	font-size: 2.3em;
+    color: #111;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 2.3;
+}
+.food_desc>a:nth-child(2) p:nth-child(2){
+	font-size: 1.5em;
+	color: #888888;
+	line-height: 2.3;
+}
+.food_desc>a:nth-child(2) p:nth-child(3){
+	font-size: 1.5em;
+    line-height: 3;
+    color: #888888;
+}
+.food_sky_bot{
+	display: flex;
+	flex-direction:column;
+	margin:0 auto;
+	width: 98%;
+}
+/*banner end*/
+/*slidemenu*/	
+.slide{
+	width: 40px;
+    position: fixed;
+    right: 30px;
+    bottom: 55px;
+    z-index: 100;
+}
+/*slidemenu end*/
